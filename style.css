@@ -1,0 +1,17 @@
+h1
+{
+    color: #a01010;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p
+{
+    font-weight: bold;
+    color: green;
+}
+
+img
+{
+    max-width: 30%;
+    max-height: 100%;
+}
