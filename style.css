@@ -51,16 +51,27 @@ img
 }
 
 
-
 .col1 img 
 {
     display: none;  
 }
 
+/**Hero Section**/ 
 
-
-h1
+.hero 
 {
-    font-size: 30px;
-    text-transform: uppercase;
+    height: 100vh;
+    background-image: url("YellowBackground.jpg");
+    background-color: yellow; /** fallback background **/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
