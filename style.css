@@ -1,14 +1,20 @@
 h1
 {
-    color: #a01010;
+    color: yellow;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+h2
+{
+    color: yellow;
+}
+
 
 
 p
 {
     font-weight: bold;
-    color: green;
+    color: black;
 }
 
 
@@ -74,4 +80,36 @@ img
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/** About **/
+.container 
+{
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+
+.col-30
+{
+    width: 29%;
+}
+.col-70
+{
+    width: 69%;
+}
+
+.content
+{
+    padding-left: 20px;
+    padding-top: 40px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 767px) 
+{
+    .column
+    {
+        display: block;
+        width: 100%; 
+    }
 }
