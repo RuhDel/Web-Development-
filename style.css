@@ -113,3 +113,27 @@ img
         width: 100%; 
     }
 }
+
+.logo
+{
+    width: 35%;
+    display: block;
+}
+
+.no-list, .nav-items
+{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-items li
+{
+    display:inline-block;
+    width: 100px;
+}
+
+.nav-items li:hover
+{
+    background-color: yellow;
+    cursor: pointer;
+}
